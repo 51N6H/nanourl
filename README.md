@@ -10,7 +10,7 @@ A locally hosted URL shortener made in Flask.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/51N6H/nanourl.git
+   git clone git@github.com:51N6H/nanourl.git
 
 2. Navigate into the project directory:
    ```bash
