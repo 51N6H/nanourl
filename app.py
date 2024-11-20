@@ -25,7 +25,7 @@ def load_url_map():
 # Function to save URL mappings to the file
 def save_url_map():
     with open(file_path, "w") as file:
-        json.dump(url_map, file)
+        json.dump(url_map, file, indent=4)
 
 # Load the URL mappings when the server starts
 load_url_map()
